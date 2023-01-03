@@ -45,6 +45,9 @@ class ShoppingPage extends StatelessWidget {
                             ],
                           ),
                           Column(
+                            // mainAxisAlignment: MainAxisAlignment.end,
+                            // crossAxisAlignment: CrossAxisAlignment.end,
+
                             children: [
                               Text('฿${controller.products[index].price}'),
                               TextButton(
